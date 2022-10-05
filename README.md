@@ -4,6 +4,7 @@ Simple application using RabbitMQ
 ## Como instalar:
 https://www.notion.so/Como-instalar-3b9d2a797673418e8ec5288275d4da9a
 
+## Testes
 ### Consumer:
 ![image](https://user-images.githubusercontent.com/57465943/194110843-b4bb708b-31f3-4ac7-8efd-f86965589740.png)
 

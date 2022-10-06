@@ -29,6 +29,7 @@ namespace RabbitMQ.Consumer
 
                 var consumer = new EventingBasicConsumer(channel);
 
+                //Event fired when a delivery arrives for the consumer.
                 consumer.Received += (model, ea) =>
                 {
                     var body = ea.Body.ToArray();

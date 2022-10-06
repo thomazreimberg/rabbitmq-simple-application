@@ -14,9 +14,10 @@ namespace RabbitMQ.Producer
             //Creating connection with the defined host.
             using (var connection = factory.CreateConnection())
 
+            //Creating a fresh channel, session and model
             using (var channel = connection.CreateModel())
             {
-                //Declaring/creating a queue
+                //Declaring a queue
                 channel.QueueDeclare(
                     queue: "hello", //Name of queue
                     durable: false, //Define if this queue must survive when broker/producer is restarted

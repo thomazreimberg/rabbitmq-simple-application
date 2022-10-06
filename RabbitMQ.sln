@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32802.440
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.Producer", "RabbitMQ.Producer\RabbitMQ.Producer.csproj", "{6AA6E832-6793-4CE6-96D6-4C4D8E91E3DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQ.Producer", "RabbitMQ.Producer\RabbitMQ.Producer.csproj", "{6AA6E832-6793-4CE6-96D6-4C4D8E91E3DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.Consumer", "RabbitMQ.Consumer\RabbitMQ.Consumer.csproj", "{1E53CB75-2CC9-481E-8CC2-7990F2386599}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQ.Consumer", "RabbitMQ.Consumer\RabbitMQ.Consumer.csproj", "{1E53CB75-2CC9-481E-8CC2-7990F2386599}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.NewTask", "RabbitMQ.NewTask\RabbitMQ.NewTask.csproj", "{6948D759-A240-4342-A91C-3AD405C5F776}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.Worker", "RabbitMQ.Worker\RabbitMQ.Worker.csproj", "{BA85FCA0-91A6-4F88-8C2E-282C02914099}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{1E53CB75-2CC9-481E-8CC2-7990F2386599}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E53CB75-2CC9-481E-8CC2-7990F2386599}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E53CB75-2CC9-481E-8CC2-7990F2386599}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6948D759-A240-4342-A91C-3AD405C5F776}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6948D759-A240-4342-A91C-3AD405C5F776}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6948D759-A240-4342-A91C-3AD405C5F776}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6948D759-A240-4342-A91C-3AD405C5F776}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA85FCA0-91A6-4F88-8C2E-282C02914099}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA85FCA0-91A6-4F88-8C2E-282C02914099}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA85FCA0-91A6-4F88-8C2E-282C02914099}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA85FCA0-91A6-4F88-8C2E-282C02914099}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
